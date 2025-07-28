@@ -8,7 +8,7 @@ I use this repo to continuously learn, explore new JavaScript concepts, and for 
 
 ## 📚 JS-Notes
 
-📎 Click here for full [JS Notes](JS-Notes/README.md)  
+📎 Click here for full [JS Notes](JS-Notes/README.MD)  
 🙌 **Special thanks to [Pugazharasan Chandrasekar](https://github.com/PugazharasanC)**  
 I’ve referenced his excellent JS notes to make them easily accessible for myself and for all of you!  
 
