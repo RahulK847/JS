@@ -22,14 +22,20 @@
 </body>
 <script>
     // element selectors = Methods used to target and manipulate HTML elements
-    //They allow you to select one or multiple HTML elements
+    // They allow you to select one or multiple HTML elements
     // from the DOM (Document Object Model)
     
-    // 1. document.getElementById()        // ELEMENT OR NULL
-    // 2. document.getElementsClassName()  // HTML COLLECTION
-    // 3. document.getElementsByTagName()  // HTML COLLECTION
-    // 4. document.querySelector()         // ELEMENT OR NULL
-    // 5. document.querySelectorAll()      // NODELIST
+    // 1. document.getElementById("id")            // uses ID → #id (but here no # needed)
+    // 2. document.getElementsByClassName("class") // uses class → .class (but no . needed)
+    // 3. document.getElementsByTagName("tag")     // uses tag → div, p, h1 etc.
+    
+    // 4. document.querySelector("#id")            // uses # for id
+    // 5. document.querySelector(".class")         // uses . for class
+    // 6. document.querySelector("tag")            // uses tag name
+    
+    // 7. document.querySelectorAll("#id")         // #id (rare, since id is unique)
+    // 8. document.querySelectorAll(".class")      // .class (multiple elements)
+    // 9. document.querySelectorAll("tag")         // tag (multiple elements)
     
     // Select the parent element
     const parent  = document.querySelector(".parent");
